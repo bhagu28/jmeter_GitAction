@@ -30,6 +30,9 @@ jobs:
         with:
     # JMeter test plan to execute
                test-plan-path: './jmeter-example.jmx'
+      - name: jmeter-results
+        with:
+         path: result.jtl
     # Where to store the results e.g., result.csv
                
           
