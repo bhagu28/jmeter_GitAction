@@ -33,7 +33,7 @@ jobs:
       - name: jmeter-results
         uses: QAInsights/PerfAction@v5.6.2
         with:
-         results-file: result.jtl
+         results-file: './result.jtl'
     # Where to store the results e.g., result.csv
                
           
