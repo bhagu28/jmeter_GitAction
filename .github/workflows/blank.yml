@@ -31,6 +31,7 @@ jobs:
     # JMeter test plan to execute
                test-plan-path: './jmeter-example.jmx'
       - name: jmeter-results
+        uses: QAInsights/PerfAction@v5.6.2
         with:
          results-file: result.jtl
     # Where to store the results e.g., result.csv
